@@ -49,7 +49,7 @@ Open Terminal > and type:
 open ~/.zshrc
 ```
 
-## Export the path to npm global dir
+## Add .npm-global to your PATH
 
 Open the .zshrc and add this line:
 
