@@ -1,12 +1,12 @@
-# How to install NodeJS and NPM on MacOS
-Follow the instructions below to avoid permissions errors when installing
-NPM packages on your mac.
+# How to install NodeJS and NPM on MacOS #
 ---
-## Download NodeJs
+Follow the instructions below to avoid permissions errors when installing NPM packages on your mac.
+
+## Download NodeJs ##
 Download and install NodeJS if you haven't already.
 https://nodejs.org/en/
----
-## Create a new npm global directory
+
+## Create a new npm global directory ##
 Create a new npm global directory for your npm packages
 `mkdir ~/.npm-global`
 
