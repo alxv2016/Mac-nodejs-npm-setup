@@ -8,7 +8,7 @@ https://nodejs.org/en/
 
 ## Create a new npm global directory ##
 Create a new npm global directory for your npm packages
-`mkdir ~/.npm-global`
+``mkdir ~/.npm-global``
 
 # Config npm to user dir
 npm config set prefix '~/.npm-global'
