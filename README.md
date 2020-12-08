@@ -54,7 +54,7 @@ open ~/.zshrc
 Open the .zshrc and add this line:
 
 ```
-export PATH=~/.npm-global/bin:\$PATH
+export PATH=~/.npm-global/bin:$PATH
 ```
 
 Open Terminal and source the .zshrc file
@@ -66,9 +66,10 @@ source ~/.zshrc
 double check
 
 ```
-echo \$PATH
+echo $PATH
 ```
 
 ## 🎉 You're all set!
 
 Install a npm package and test it out, there should be no more permission errors nor do you need to sudo an install.
+more info checkout: <https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally>
